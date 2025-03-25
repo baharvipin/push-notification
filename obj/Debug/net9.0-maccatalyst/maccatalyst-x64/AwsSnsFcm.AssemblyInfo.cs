@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwsSnsFcm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1aed12df712ad0239b18b8daf964cb22c4103ea3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwsSnsFcm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwsSnsFcm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

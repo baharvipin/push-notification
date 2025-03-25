@@ -24,7 +24,7 @@
 		<ApplicationTitle>AwsSnsFcm</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.awssnsfcm</ApplicationId>
+		<ApplicationId>com.autogarud.awssns</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -42,6 +42,15 @@
 	</PropertyGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
 		<GoogleServicesJson Include="Platforms/Android/google-services.json" />
+		<PackageReference Include="Xamarin.Firebase.Messaging">
+		  <Version>124.1.0.1</Version>
+		</PackageReference>
+		<PackageReference Include="Xamarin.Google.Dagger">
+		  <Version>2.55.0.1</Version>
+		</PackageReference>
+		<PackageReference Include="Xamarin.GooglePlayServices.Base">
+		  <Version>118.5.0.4</Version>
+		</PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>
